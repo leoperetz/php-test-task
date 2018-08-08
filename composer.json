@@ -1,0 +1,34 @@
+{
+  "name": "leo/fees-php-test-task",
+  "description": "Fees - PHP test task",
+  "version" : "0.0.1",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Leo Silchenko",
+      "email": "drain@softrest.eu"
+    }
+  ],
+  "require": {
+    "php": "^7.1",
+    "composer/installers": "^1",
+    "symfony/yaml": "^4.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~5"
+  },
+  "autoload": {
+    "psr-4": {
+      "LeoProject\\" : "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "LeoProject\\Tests\\": "tests"
+    }
+  },
+  "scripts": {
+    "test": "./vendor/bin/phpunit",
+    "task": "php index.php test.csv"
+  }
+}

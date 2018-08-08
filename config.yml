@@ -1,0 +1,18 @@
+
+# define fees
+fees:
+  in:
+    fee: 0.03 # %
+    max: 5 # EUR
+  out:
+    natural:
+      fee: 0.3 # %
+      free: 1000 # EUR per week is free of charge for first 3 operations
+    legal:
+      fee: 0.3 # %
+      min: 0.5 # EUR
+
+# conversion rates (eur:xxx)
+rates:
+  usd: 1.1497
+  jpy: 129.53
