@@ -1,7 +1,8 @@
 {
   "name": "leo/fees-php-test-task",
   "description": "Fees - PHP test task",
-  "version" : "0.0.1",
+  "homepage": "https://github.com/leoperetz/php-test-task",
+  "version" : "0.0.2",
   "license": "MIT",
   "authors": [
     {

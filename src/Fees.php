@@ -84,7 +84,6 @@ class Fees
             'count' => ($weekData['count'] ?? 0) + 1
         ];
         $this->usersCheck[$userId] = $userWeeks;
-        print_r($this->usersCheck);
     }
 
     /**

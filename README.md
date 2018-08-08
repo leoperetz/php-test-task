@@ -30,6 +30,12 @@
     php index.php <your_file.csv>
     ```
 
+### Unit tests
+
+```
+composer run-script test
+```
+
 ### Notes
 
 The following tools and environment were used:
